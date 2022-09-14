@@ -54,6 +54,7 @@ teamsRouter.put(
   "/:id",
   body("name").isString(),
   body("goalsConsived").isInt(),
+
   body("chanceCreated").isInt(),
   body("standing").isInt(),
   body("goalsScored").isInt(),

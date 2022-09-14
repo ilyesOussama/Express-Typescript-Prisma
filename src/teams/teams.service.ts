@@ -24,6 +24,7 @@ export const getTeams = async (): Promise<Team[]> => {
       Fixtures: true,
       name: true,
       standing: true,
+
       goalsScored: true,
     },
   });
